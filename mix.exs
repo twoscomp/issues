@@ -26,6 +26,7 @@ defmodule Issues.MixProject do
       {:credo, "~> 0.9.1", only: [:dev, :test], runtime: false},
       {:httpoison, "~> 1.1"},
       {:poison, "~> 3.1.0"},
+      {:mix_test_watch, "~> 0.8", only: :dev, runtime: false}
     ]
   end
 end
